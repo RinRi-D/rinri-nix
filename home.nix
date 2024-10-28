@@ -46,10 +46,11 @@
     pkgs.noto-fonts
     pkgs.noto-fonts-cjk
     pkgs.nerdfonts
+    pkgs.font-awesome_5
   ];
 
   fonts.fontconfig.enable = true;
-  fonts.fontconfig.defaultFonts.monospace = [ "DejaVuSansM Nerd Font Mono" ];
+  fonts.fontconfig.defaultFonts.monospace = [ "DejaVuSansM Nerd Font Propo" ];
 
   home.file = {
     ".config/hypr/hyprland.conf".source = dotfiles/hyprland.conf;
